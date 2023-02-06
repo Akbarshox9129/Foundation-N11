@@ -6,8 +6,6 @@ ls=[1,2,3,1,2,3]
 class Window(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("1-UYGA VAZIFA")
-        self.setGeometry(250,250,500,600)
         self.start()
         self.show()
     def font(self,obj,x,y):
